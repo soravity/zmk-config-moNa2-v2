@@ -98,6 +98,66 @@
             bindings = <&tog 5>;
             key-positions = <18 19>;
         };
+
+        combo_F1 {
+            bindings = <&kp F1>;
+            key-positions = <10 21>;
+        };
+
+        combo_F2 {
+            bindings = <&kp F2>;
+            key-positions = <11 22>;
+        };
+
+        combo_F3 {
+            bindings = <&kp F3>;
+            key-positions = <12 23>;
+        };
+
+        combo_F4 {
+            bindings = <&kp F4>;
+            key-positions = <13 24>;
+        };
+
+        combo_F5 {
+            bindings = <&kp F5>;
+            key-positions = <14 25>;
+        };
+
+        combo_F6 {
+            bindings = <&kp F6>;
+            key-positions = <16 28>;
+        };
+
+        combo_F7 {
+            bindings = <&kp F7>;
+            key-positions = <17 29>;
+        };
+
+        combo_F8 {
+            bindings = <&kp F8>;
+            key-positions = <18 30>;
+        };
+
+        combo_F9 {
+            bindings = <&kp F9>;
+            key-positions = <19 31>;
+        };
+
+        combo_F10 {
+            bindings = <&kp F10>;
+            key-positions = <20 32>;
+        };
+
+        combo_F11 {
+            bindings = <&kp F11>;
+            key-positions = <26 25>;
+        };
+
+        combo_F12 {
+            bindings = <&kp F12>;
+            key-positions = <15 27>;
+        };
     };
 
     macros {
@@ -141,10 +201,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R  &kp T                                         &kp Y      &kp U  &kp I      &kp O    &kp P
-&kp A      &kp S         &kp D         &kp F  &kp G                          &kp MINUS      &kp H      &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z      &kp X         &kp C         &kp V  &kp B                 &kp A    &kp DELETE     &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &mo 1  &mt LEFT_SHIFT SPACE  &mo 2    &kp BACKSPACE  &kp ENTER                             &mt RIGHT_SHIFT RS(INTERNATIONAL_1)
+&kp Q      &kp W         &kp E         &kp R  &kp T                                             &kp Y      &kp U  &kp I      &kp O    &kp P
+&kp A      &kp S         &kp D         &kp F  &kp G                              &kp MINUS      &kp H      &kp J  &kp K      &kp L    &kp SEMICOLON
+&kp Z      &kp X         &kp C         &kp V  &kp B                 &kp EQUAL    &kp DELETE     &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &mo 1  &mt LEFT_SHIFT SPACE  &mo 2        &kp BACKSPACE  &kp ENTER                             &mt RIGHT_SHIFT RS(INTERNATIONAL_1)
             >;
 
             sensor-bindings = <&scroll_up_down>;
